@@ -8,7 +8,7 @@ Device setup and dependency install instructions for the NVIDIA Jetson TK1 on th
     1. `./home/slate/Desktop/JetPack3/JetPack-L4T-3.1-linux-x64.run`
 4. Follow on-screen instructions to flash device
 
-## Install Packages
+## Install Git, SSH, VNC, Grinch
 1. Connect TK1 to monitor via HDMI
 2. Open Terminal
     1. `sudo apt-get update`
@@ -60,3 +60,13 @@ Device setup and dependency install instructions for the NVIDIA Jetson TK1 on th
     11. `sudo chmod +x /etc/init.d/vncserver`
     12. `sudo service vncserver start`
     13. `sudo update-rc.d vncserver defaults` - add vncserver to default services to start on boot
+    14. `sudo reboot` - restart
+
+## Install Xbox, smbus, & Python Tools
+1. Open Terminal
+    1. `sudo apt-get install python-setuptools`
+    2. `sudo easy_install pip`
+    3. `sudo apt-get install build-essential libi2c-dev i2c-tools python-dev libffi-dev`
+    4. `sudo pip install cffi`
+    5. `sudo pip install smbus-cffi`
+    6. `sudo apt-get install xboxdrv` - xbox controller tool
