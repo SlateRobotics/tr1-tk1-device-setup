@@ -8,7 +8,7 @@ Device setup and dependency install instructions for the NVIDIA Jetson TK1 on th
     1. `./home/slate/Desktop/JetPack3/JetPack-L4T-3.1-linux-x64.run`
 4. Follow on-screen instructions to flash device
 
-## Install Git, SSH, VNC, Grinch (~5 mintues)
+## Install Git, SSH, VNC, Grinch (~8 mintues)
 1. Connect TK1 to monitor via HDMI
 2. Open Terminal
     1. `sudo apt-get update`
