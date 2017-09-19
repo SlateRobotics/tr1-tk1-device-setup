@@ -13,7 +13,7 @@ Device setup and dependency install instructions for the NVIDIA Jetson TK1 on th
 2. Open Terminal
     1. `sudo apt-get update`
     2. `sudo apt-get upgrade`
-    3. `sudo apt-get install git ssh xfce4 xfce4-goodies tightvncserver`
+    3. `sudo apt-get install git nano ssh xfce4 xfce4-goodies tightvncserver`
     4. `ssh localhost` - Test ssh
     5. `git clone https://github.com/jetsonhacks/installGrinch.git`
     6. `cd installGrinch`
