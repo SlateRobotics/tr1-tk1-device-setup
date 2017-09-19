@@ -31,12 +31,11 @@ Device setup and dependency install instructions for the NVIDIA Jetson TK1 on th
     ```bash
     #!/bin/bash
     PATH="$PATH:/usr/bin/"
-    export USER="ubuntu" 
-    PASSWD="ubuntu"
+    export USER="ubuntu"
     DISPLAY="1"
     DEPTH="16"
     GEOMETRY="1024x768"
-    OPTIONS="-depth ${DEPTH} -geometry ${GEOMETRY} :${DISPLAY} -localhost"
+    OPTIONS="-depth ${DEPTH} -geometry ${GEOMETRY} :${DISPLAY}"
     . /lib/lsb/init-functions
 
     case "$1" in
