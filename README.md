@@ -2,8 +2,8 @@
 Device setup and dependency install instructions for the NVIDIA Jetson TK1 on the Slate TR1
 
 ## Flash Device
-1. Connect host machine to TK1 via ethernet to same router
-2. Connect TK1 via USB
+1. Connect host machine to TK1 via ethernet over same router
+2. Connect TK1 via USB to USB Mini-B
 3. Open Terminal on host machine
     1. `./home/slate/Desktop/JetPack3/JetPack-L4T-3.1-linux-x64.run`
 4. Follow on-screen instructions to flash device
